@@ -35,4 +35,28 @@ for x in range (0,10,2):
 print("get it?  The counter starts at zero, but this time it goes up in 2s.  So 0,2,4,6,8 - five times.  We can see that more clearly if we print the counter")
 for x in range(0,10,2):
     print("The counter is: " + str(x))
-#to do While, For x in list
+print("The next type of iteration is iterating through a list.  This is a type of for loop (which is why I said 2 and a half before) but a special type")
+print("Quite often we want to do something to every item in a list.  I'm just going to set one up")
+parts=["heads", "shoulders", "knees", "toes"]
+print("we can print out every item in the list like this:")
+for x in parts: #colon, indent
+    print(x)
+print("we can even indent things in other things:")
+for x in parts:
+    print(x)
+    if (x=="knees"):#colon, indent
+        print("and")#which means we're now indented two steps
+    #this comment is inside the for loop but not inside the if
+#this comment is in neither
+loopCounter = 0;
+print("Finally there's the while loop.  A for loop does something a certain number of times, a while loop does something so long as a condition is met")
+print("It works well with a Sheffield accent - 'Do this while the bus comes'")
+print("as you might be able to guess, there's colons and indenting.  It looks like this:")
+while loopCounter<5:
+    print("I'm in a while loop")
+    loopCounter+=1 #this means increment the loopCounter variable
+print("some other programming languages have other iteration operators - do/while, repeat/until, etc and JavaScript has a bunch of specialist ones")
+print("but those two/three are common to most languages and are all you actually need, if you learn how 'break' and 'continue' work")
+
+
+
