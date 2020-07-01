@@ -20,7 +20,7 @@ elif (thirdRan==2):#colon, indentation
     print ("I picked yet another number.  You'll see this line if it was two")
 else:
     print ("I picked yet another number.  You'll see this line if it neither one nor two")
-    print ("the line below is too long for my screen so I've split it into two.  Each individual part is surrounded by "s but there's only one set of brackets
+    print ("the line below is too long for my screen so I've split it into two.  Each individual part is surrounded by 's but there's only one set of brackets")
     print ("We can also have multiple lines inside an 'if', 'elif' or 'else'.  This line is in the else block so "#why is there a space after so?
            "will only appear if the number was neither one nor two, like the one above")
 #So the order of instructions remains the same, like in sequence, but the computer makes a decision as to which line to use
