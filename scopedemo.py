@@ -1,4 +1,5 @@
 def functionOne():
+    #My functions here don't have docstrings.  Do as I say, not as I do
     print(globaVariable)#This variable is global (or will be when I declare it in a bit)
     localVariable="hello" #This variable is local to functionOne.  I can use it within the function
     print (localVariable)
