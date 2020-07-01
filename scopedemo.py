@@ -5,9 +5,11 @@ def functionOne():
     print (localVariable)
 
 def functionTwo(parameter): #The passed argument is local to the function
+    #docstring here
     print (parameter) #So I can use it here
 
 def functionThree():
+    #docstring here
     globalNumericVariable = globalNumericVariable + 2 #ERROR!  I can access the global variable, but I can't modify it
     #Specifically what has happened is that a new variable called globalNumericVariable has been created that is, despite the name, local to the function
     #I then tried to add two to it, which caused an error as Python didn't know what's value was.
